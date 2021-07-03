@@ -1,0 +1,23 @@
+@media all and (max-width:1900){
+    .hero_section {
+        background-image: url(./img/ia_400000067.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        height: 49vh;
+    }
+}
+
+@media all and (max-width:1500){
+    .hero_section {
+        height: 45vh;
+    }
+}
+@media all and (max-width:1300px){
+    .fixed_width {
+        width: 120rem;
+    }
+    .hero_section {
+        height: 40vh;
+    }
+}
